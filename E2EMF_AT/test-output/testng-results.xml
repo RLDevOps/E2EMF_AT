@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="133927" started-at="2014-04-22T10:13:03Z" finished-at="2014-04-22T10:15:17Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="133927" started-at="2014-04-22T10:13:03Z" finished-at="2014-04-22T10:15:17Z">
+      <class name="com.rl.E2EMF.TestScripts">
+        <test-method status="PASS" signature="flowDiagrams()[pri:0, instance:com.rl.E2EMF.TestScripts@acf3c39]" name="flowDiagrams" duration-ms="61601" started-at="2014-04-22T15:43:03Z" finished-at="2014-04-22T15:44:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flowDiagrams -->
+        <test-method status="PASS" signature="planAndEstimation()[pri:0, instance:com.rl.E2EMF.TestScripts@acf3c39]" name="planAndEstimation" duration-ms="11244" started-at="2014-04-22T15:44:04Z" finished-at="2014-04-22T15:44:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- planAndEstimation -->
+        <test-method status="PASS" signature="profiling()[pri:0, instance:com.rl.E2EMF.TestScripts@acf3c39]" name="profiling" duration-ms="16180" started-at="2014-04-22T15:44:16Z" finished-at="2014-04-22T15:44:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- profiling -->
+        <test-method status="PASS" signature="search()[pri:0, instance:com.rl.E2EMF.TestScripts@acf3c39]" name="search" duration-ms="17841" started-at="2014-04-22T15:44:32Z" finished-at="2014-04-22T15:44:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method status="PASS" signature="testLogin()[pri:0, instance:com.rl.E2EMF.TestScripts@acf3c39]" name="testLogin" duration-ms="16050" started-at="2014-04-22T15:44:50Z" finished-at="2014-04-22T15:45:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method status="PASS" signature="testLogout()[pri:0, instance:com.rl.E2EMF.TestScripts@acf3c39]" name="testLogout" duration-ms="10991" started-at="2014-04-22T15:45:06Z" finished-at="2014-04-22T15:45:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogout -->
+      </class> <!-- com.rl.E2EMF.TestScripts -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

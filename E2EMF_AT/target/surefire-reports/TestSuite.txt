@@ -1,0 +1,94 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 6, Errors: 0, Skipped: 0, Time elapsed: 3.525 sec <<< FAILURE!
+flowDiagrams(com.rl.E2EMF.TestScripts)  Time elapsed: 1.839 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: Unable to locate element with ID: username
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.39.0', revision: '14fa800511cc5d66d426e08b0b2ab926c7ed7398', time: '2013-12-16 13:18:38'
+System info: host: 'SRINIVAS-PC', ip: '169.254.245.213', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_45'
+Driver info: driver.version: HtmlUnitDriver
+	at org.openqa.selenium.htmlunit.HtmlUnitDriver.findElementById(HtmlUnitDriver.java:914)
+	at org.openqa.selenium.By$ById.findElement(By.java:220)
+	at org.openqa.selenium.htmlunit.HtmlUnitDriver$5.call(HtmlUnitDriver.java:1567)
+	at org.openqa.selenium.htmlunit.HtmlUnitDriver$5.call(HtmlUnitDriver.java:1564)
+	at org.openqa.selenium.htmlunit.HtmlUnitDriver.implicitlyWaitFor(HtmlUnitDriver.java:1243)
+	at org.openqa.selenium.htmlunit.HtmlUnitDriver.findElement(HtmlUnitDriver.java:1564)
+	at org.openqa.selenium.htmlunit.HtmlUnitDriver.findElement(HtmlUnitDriver.java:532)
+	at com.rl.E2EMF.TestScripts.login(TestScripts.java:33)
+	at com.rl.E2EMF.TestScripts.flowDiagrams(TestScripts.java:50)
+planAndEstimation(com.rl.E2EMF.TestScripts)  Time elapsed: 0.239 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: Unable to locate element with ID: username
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.39.0', revision: '14fa800511cc5d66d426e08b0b2ab926c7ed7398', time: '2013-12-16 13:18:38'
+System info: host: 'SRINIVAS-PC', ip: '169.254.245.213', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_45'
+Driver info: driver.version: HtmlUnitDriver
+	at org.openqa.selenium.htmlunit.HtmlUnitDriver.findElementById(HtmlUnitDriver.java:914)
+	at org.openqa.selenium.By$ById.findElement(By.java:220)
+	at org.openqa.selenium.htmlunit.HtmlUnitDriver$5.call(HtmlUnitDriver.java:1567)
+	at org.openqa.selenium.htmlunit.HtmlUnitDriver$5.call(HtmlUnitDriver.java:1564)
+	at org.openqa.selenium.htmlunit.HtmlUnitDriver.implicitlyWaitFor(HtmlUnitDriver.java:1243)
+	at org.openqa.selenium.htmlunit.HtmlUnitDriver.findElement(HtmlUnitDriver.java:1564)
+	at org.openqa.selenium.htmlunit.HtmlUnitDriver.findElement(HtmlUnitDriver.java:532)
+	at com.rl.E2EMF.TestScripts.login(TestScripts.java:33)
+	at com.rl.E2EMF.TestScripts.planAndEstimation(TestScripts.java:74)
+profiling(com.rl.E2EMF.TestScripts)  Time elapsed: 0.245 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: Unable to locate element with ID: username
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.39.0', revision: '14fa800511cc5d66d426e08b0b2ab926c7ed7398', time: '2013-12-16 13:18:38'
+System info: host: 'SRINIVAS-PC', ip: '169.254.245.213', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_45'
+Driver info: driver.version: HtmlUnitDriver
+	at org.openqa.selenium.htmlunit.HtmlUnitDriver.findElementById(HtmlUnitDriver.java:914)
+	at org.openqa.selenium.By$ById.findElement(By.java:220)
+	at org.openqa.selenium.htmlunit.HtmlUnitDriver$5.call(HtmlUnitDriver.java:1567)
+	at org.openqa.selenium.htmlunit.HtmlUnitDriver$5.call(HtmlUnitDriver.java:1564)
+	at org.openqa.selenium.htmlunit.HtmlUnitDriver.implicitlyWaitFor(HtmlUnitDriver.java:1243)
+	at org.openqa.selenium.htmlunit.HtmlUnitDriver.findElement(HtmlUnitDriver.java:1564)
+	at org.openqa.selenium.htmlunit.HtmlUnitDriver.findElement(HtmlUnitDriver.java:532)
+	at com.rl.E2EMF.TestScripts.login(TestScripts.java:33)
+	at com.rl.E2EMF.TestScripts.profiling(TestScripts.java:58)
+search(com.rl.E2EMF.TestScripts)  Time elapsed: 0.246 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: Unable to locate element with ID: username
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.39.0', revision: '14fa800511cc5d66d426e08b0b2ab926c7ed7398', time: '2013-12-16 13:18:38'
+System info: host: 'SRINIVAS-PC', ip: '169.254.245.213', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_45'
+Driver info: driver.version: HtmlUnitDriver
+	at org.openqa.selenium.htmlunit.HtmlUnitDriver.findElementById(HtmlUnitDriver.java:914)
+	at org.openqa.selenium.By$ById.findElement(By.java:220)
+	at org.openqa.selenium.htmlunit.HtmlUnitDriver$5.call(HtmlUnitDriver.java:1567)
+	at org.openqa.selenium.htmlunit.HtmlUnitDriver$5.call(HtmlUnitDriver.java:1564)
+	at org.openqa.selenium.htmlunit.HtmlUnitDriver.implicitlyWaitFor(HtmlUnitDriver.java:1243)
+	at org.openqa.selenium.htmlunit.HtmlUnitDriver.findElement(HtmlUnitDriver.java:1564)
+	at org.openqa.selenium.htmlunit.HtmlUnitDriver.findElement(HtmlUnitDriver.java:532)
+	at com.rl.E2EMF.TestScripts.login(TestScripts.java:33)
+	at com.rl.E2EMF.TestScripts.search(TestScripts.java:66)
+testLogin(com.rl.E2EMF.TestScripts)  Time elapsed: 0.231 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: Unable to locate element with ID: username
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.39.0', revision: '14fa800511cc5d66d426e08b0b2ab926c7ed7398', time: '2013-12-16 13:18:38'
+System info: host: 'SRINIVAS-PC', ip: '169.254.245.213', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_45'
+Driver info: driver.version: HtmlUnitDriver
+	at org.openqa.selenium.htmlunit.HtmlUnitDriver.findElementById(HtmlUnitDriver.java:914)
+	at org.openqa.selenium.By$ById.findElement(By.java:220)
+	at org.openqa.selenium.htmlunit.HtmlUnitDriver$5.call(HtmlUnitDriver.java:1567)
+	at org.openqa.selenium.htmlunit.HtmlUnitDriver$5.call(HtmlUnitDriver.java:1564)
+	at org.openqa.selenium.htmlunit.HtmlUnitDriver.implicitlyWaitFor(HtmlUnitDriver.java:1243)
+	at org.openqa.selenium.htmlunit.HtmlUnitDriver.findElement(HtmlUnitDriver.java:1564)
+	at org.openqa.selenium.htmlunit.HtmlUnitDriver.findElement(HtmlUnitDriver.java:532)
+	at com.rl.E2EMF.TestScripts.login(TestScripts.java:33)
+	at com.rl.E2EMF.TestScripts.testLogin(TestScripts.java:43)
+testLogout(com.rl.E2EMF.TestScripts)  Time elapsed: 0.239 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: Unable to locate element with ID: username
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.39.0', revision: '14fa800511cc5d66d426e08b0b2ab926c7ed7398', time: '2013-12-16 13:18:38'
+System info: host: 'SRINIVAS-PC', ip: '169.254.245.213', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_45'
+Driver info: driver.version: HtmlUnitDriver
+	at org.openqa.selenium.htmlunit.HtmlUnitDriver.findElementById(HtmlUnitDriver.java:914)
+	at org.openqa.selenium.By$ById.findElement(By.java:220)
+	at org.openqa.selenium.htmlunit.HtmlUnitDriver$5.call(HtmlUnitDriver.java:1567)
+	at org.openqa.selenium.htmlunit.HtmlUnitDriver$5.call(HtmlUnitDriver.java:1564)
+	at org.openqa.selenium.htmlunit.HtmlUnitDriver.implicitlyWaitFor(HtmlUnitDriver.java:1243)
+	at org.openqa.selenium.htmlunit.HtmlUnitDriver.findElement(HtmlUnitDriver.java:1564)
+	at org.openqa.selenium.htmlunit.HtmlUnitDriver.findElement(HtmlUnitDriver.java:532)
+	at com.rl.E2EMF.TestScripts.login(TestScripts.java:33)
+	at com.rl.E2EMF.TestScripts.testLogout(TestScripts.java:82)

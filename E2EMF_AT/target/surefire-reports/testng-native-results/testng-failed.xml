@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="com.rl.E2EMF.TestScripts">
+        <methods>
+          <include name="testLogout"/>
+          <include name="search"/>
+          <include name="profiling"/>
+          <include name="flowDiagrams"/>
+          <include name="planAndEstimation"/>
+          <include name="testLogin"/>
+        </methods>
+      </class> <!-- com.rl.E2EMF.TestScripts -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->
