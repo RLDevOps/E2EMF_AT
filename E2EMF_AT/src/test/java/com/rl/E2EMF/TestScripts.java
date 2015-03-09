@@ -14,7 +14,7 @@ public class TestScripts extends MainDriver {
 	public static void openBrowser(){
 	
 	    		//driver = new HtmlUnitDriver();
-	    		//System.setProperty("webdriver.firefox.bin","/usr/local/bin/firefox");
+	    		System.setProperty("webdriver.firefox.bin","/usr/local/bin/firefox");
 	    		driver = new FirefoxDriver();
 	    		//String deployUrl=System.getProperty("url");
 	    		//String deployUrl="http://192.168.103.30:8080/E2EMF/";
